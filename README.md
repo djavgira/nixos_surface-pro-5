@@ -2,6 +2,8 @@
 
 我的 NixOS 配置，适用于 Surface Pro 5。
 
+![NixOS](images/nixos_femal.jpg)
+
 ## 文件树
 
 ```bash
