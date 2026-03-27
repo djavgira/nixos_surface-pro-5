@@ -1,6 +1,10 @@
 # nixos_surface-pro-5
-我的文件树
 
+我的 NixOS 配置，适用于 Surface Pro 5。
+
+## 文件树
+
+```bash
 .
 ├── configuration.nix
 ├── flake.lock
