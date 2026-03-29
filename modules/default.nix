@@ -7,6 +7,7 @@
 	./extra/default.nix
 	./hardware/default.nix
 	./program/default.nix
+	./fcitx5/default.nix
 	];
 
 		
