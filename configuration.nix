@@ -38,6 +38,7 @@
     zsh-syntax-highlighting
     zsh-autosuggestions
     qq
+    wechat
     v2ray
     wqy_zenhei
     zerotierone
