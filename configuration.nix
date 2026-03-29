@@ -40,6 +40,7 @@
     qq
     wechat
     v2ray
+    clash-meta
     wqy_zenhei
     zerotierone
     syncthing
