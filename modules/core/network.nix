@@ -10,4 +10,9 @@
     "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store"
     "https://cache.nixos.org/"
   ];
+  ervices.mihomo = {
+  enable = true;
+  configFile = "/home/bob/.config/clash-meta/config.yaml";
+  #...
+};
 }

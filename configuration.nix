@@ -38,7 +38,7 @@
     zsh-syntax-highlighting
     zsh-autosuggestions
     qq
-    wechat
+   # wechat
     v2ray
     clash-meta
     wqy_zenhei
