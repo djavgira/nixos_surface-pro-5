@@ -11,5 +11,5 @@
     "https://cache.nixos.org/"
   ];
   #...
-};
+
 }
