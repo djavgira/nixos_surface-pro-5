@@ -12,8 +12,8 @@
     zoxide
     nixos-generators
     openjdk
-    jetbrains.idea
     vscode
+    clash-meta
     neovim
   ];
 
