@@ -74,6 +74,19 @@
     # with more details log output
     nix-output-monitor
 
+    # 终端妙妙工具
+    zoxide
+    fd
+    yazi
+    fzf
+    ripgrep
+    zellij
+    chezmoi
+    lsd
+    tldr
+    atuin
+    bat
+
     # productivity
     hugo # static site generator
     glow # markdown previewer in terminal
@@ -102,17 +115,17 @@
     userEmail = "a89831773ipo@outlook.com";
   };
 
-  # # 启用 starship，这是一个漂亮的 shell 提示符
-  # programs.starship = {
-  #   # enable = true;
-  #   # 自定义配置
-  #   settings = {
-  #     add_newline = false;
-  #     aws.disabled = true;
-  #     gcloud.disabled = true;
-  #     line_break.disabled = true;
-  #   };
-  # };
+  # 启用 starship，这是一个漂亮的 shell 提示符
+  programs.starship = {
+    enable = true;
+    # 自定义配置
+    settings = {
+      add_newline = false;
+      aws.disabled = true;
+      gcloud.disabled = true;
+      line_break.disabled = true;
+    };
+  };
 
   # # alacritty - 一个跨平台终端，带 GPU 加速功能
   # programs.alacritty = {

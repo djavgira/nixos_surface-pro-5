@@ -38,8 +38,10 @@
     zsh-syntax-highlighting
     zsh-autosuggestions
     qq
-   # wechat
+    wpsoffice-cn
+    # wechat
     v2ray
+    deskflow
     clash-meta
     wqy_zenhei
     zerotierone
