@@ -111,8 +111,12 @@
   # git 相关配置
   programs.git = {
     enable = true;
-    userName = "PainWind";
-    userEmail = "a89831773ipo@outlook.com";
+    settings = {
+      user = {
+        Name = "PainWind";
+        Email = "a89831773ipo@outlook.com";
+  	};
+     };
   };
 
   # 启用 starship，这是一个漂亮的 shell 提示符
