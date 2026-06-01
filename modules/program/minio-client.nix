@@ -8,7 +8,7 @@
     nix = {
     settings = {
       extra-substituters = [
-        "http://192.168.10.123:9000/nix-cache/"
+        "http://192.168.10.32:9000/nix-cache/"
       ];
       extra-trusted-public-keys = [
       	"s3.homelab.local-1:odBG/MiuZFzLwFV5+JZq7ArvIza5SgnY7aPrLQncx10="
