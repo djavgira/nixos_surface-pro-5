@@ -11,7 +11,7 @@
         "http://192.168.10.123:9000/nix-cache/"
       ];
       extra-trusted-public-keys = [
-        "debian-minio:6Xlh7HlmWgPuqb3JCiMwNy3FphzuQIgg6/lhLEaMd6o="
+      	"s3.homelab.local-1:odBG/MiuZFzLwFV5+JZq7ArvIza5SgnY7aPrLQncx10="
       ];
     };
   };
