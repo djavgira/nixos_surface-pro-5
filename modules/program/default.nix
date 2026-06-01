@@ -8,6 +8,6 @@
     ./syncthing.nix
     ./gaming.nix
 #    ./mihomo.nix
-#    ./minio-client.nix
+    ./minio-client.nix
   ];
 }
