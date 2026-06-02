@@ -48,6 +48,21 @@
     syncthing
   ];
 
+  # 缓存修复
+   nix.settings = {
+     extra-substituters = lib.mkForce [];
+     extra-trusted-public-keys = lib.mkForce [];
+    
+     substituters = lib.mkForce [
+       "https://mirrors.ustc.edu.cn/nix-channels/store"
+       "https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store"
+       "https://cache.nixos.org/"
+    ];
+     trusted-public-keys = lib.mkForce [
+       "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+    ];
+  }
+
   programs.firefox.enable = true;
 
   system.stateVersion = "25.11";
