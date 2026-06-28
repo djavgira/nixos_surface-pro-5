@@ -7,7 +7,7 @@
 {
   imports = [
     ./hardware-configuration.nix
-    ./modules/default.nix
+    ./../home/modules/default.nix
   ];
 
   # 允许非自由软件
@@ -37,7 +37,7 @@
     starship
     zsh-syntax-highlighting
     zsh-autosuggestions
-    qq
+    # qq
     wpsoffice-cn
     wechat
     v2ray
@@ -50,5 +50,5 @@
 
   programs.firefox.enable = true;
 
-  system.stateVersion = "25.11";
+  system.stateVersion = "26.05";
 }
