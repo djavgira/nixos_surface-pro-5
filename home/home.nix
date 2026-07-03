@@ -104,7 +104,10 @@
     ethtool
     pciutils # lspci
     usbutils # lsusb
-  ];
+    
+    #file nat
+    localsend
+];
 
   # git 相关配置
   programs.git = {
