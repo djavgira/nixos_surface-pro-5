@@ -107,6 +107,7 @@
     
     #file nat
     localsend
+    obsidian
 ];
 
   # git 相关配置
