@@ -63,7 +63,6 @@
     calibre
     foliate
     bookworm
-    fbreader
 
     # misc
     cowsay
