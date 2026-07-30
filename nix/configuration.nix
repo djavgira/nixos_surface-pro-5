@@ -37,7 +37,6 @@
     starship
     zsh-syntax-highlighting
     zsh-autosuggestions
-    qq
     wpsoffice-cn
     wechat
     v2ray
