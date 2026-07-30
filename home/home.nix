@@ -63,7 +63,6 @@
     calibre
     foliate
     bookworm
-    okular
     fbreader
 
     # misc
