@@ -60,6 +60,11 @@
 
     # reader
     koreader
+    calibre
+    foliate
+    bookworm
+    okular
+    fbreader
 
     # misc
     cowsay
