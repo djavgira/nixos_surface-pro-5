@@ -62,7 +62,6 @@
     koreader
     calibre
     foliate
-    bookworm
 
     # misc
     cowsay
