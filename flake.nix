@@ -17,7 +17,7 @@
     nixosConfigurations."nixos" = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {
-	inherit llm-agents;
+	llm-agents = inputs.llm-agents;
       };
       modules = [
         ./nix/configuration.nix
