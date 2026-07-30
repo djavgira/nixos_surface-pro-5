@@ -2,6 +2,7 @@
 {
 	imports = 
 	[
+	./agent//default.nix
 	./core/default.nix
 	./desktop/default.nix
 	./extra/default.nix
