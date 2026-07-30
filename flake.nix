@@ -20,6 +20,7 @@
 	#  inherit inputs;
 	inherit llm-agents;
 	#  inputs = inputs;
+	llm-agents = llm-agents;
       };
       modules = [
         ./nix/configuration.nix
