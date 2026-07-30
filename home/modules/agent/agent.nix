@@ -1,10 +1,8 @@
-{ config, lib, pkgs, ...}:
+{ config, lib, pkgs, llm-agents, ...}:
 
 {
-  # In your system packages:
   environment.systemPackages = with llm-agents.packages.${pkgs.stdenv.hostPlatform.system}; [
     pi
   ];
-
 }
 
