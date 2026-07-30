@@ -18,7 +18,7 @@
       system = "x86_64-linux";
       specialArgs = {
 	#  inherit inputs;
-	inherit llm-agents;
+	#  inherit llm-agents;
 	#  inputs = inputs;
 	llm-agents = llm-agents;
       };
