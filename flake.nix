@@ -13,7 +13,7 @@
    };
 };
 
-  outputs = inputs@{ self, nixpkgs, nixos-hardware , home-manager , ... }: {
+  outputs = inputs@{ self, nixpkgs, nixos-hardware , home-manager, llm-agents, ... }: {
     nixosConfigurations."nixos" = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       specialArgs = {
