@@ -16,6 +16,9 @@
   outputs = inputs@{ self, nixpkgs, nixos-hardware , home-manager , ... }: {
     nixosConfigurations."nixos" = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
+      specialArgs = {
+	inherit llm-agents;
+      }
       modules = [
         ./nix/configuration.nix
 	nixos-hardware.nixosModules.microsoft-surface-pro-intel
