@@ -18,7 +18,7 @@
       system = "x86_64-linux";
       specialArgs = {
 	inherit llm-agents;
-      }
+      };
       modules = [
         ./nix/configuration.nix
 	nixos-hardware.nixosModules.microsoft-surface-pro-intel
