@@ -18,7 +18,8 @@
       system = "x86_64-linux";
       specialArgs = {
 	#  inherit inputs;
-	inputs = inputs;
+	inherit llm-agents;
+	#  inputs = inputs;
       };
       modules = [
         ./nix/configuration.nix
