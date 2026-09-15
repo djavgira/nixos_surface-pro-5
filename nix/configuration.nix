@@ -37,8 +37,8 @@
     starship
     zsh-syntax-highlighting
     zsh-autosuggestions
-    wpsoffice-cn
-    wechat
+    # wpsoffice-cn
+    # wechat
     v2ray
     deskflow
     clash-meta

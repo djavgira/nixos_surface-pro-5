@@ -114,6 +114,11 @@
     #file nat
     localsend
     obsidian
+
+    ## social 
+    wechat 
+    wpsoffice-cn
+ #   qq
 ];
 
   # git 相关配置
