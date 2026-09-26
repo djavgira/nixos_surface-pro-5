@@ -2,6 +2,8 @@
 
 我的 NixOS 配置，适用于 Surface Pro 5。
 
+桌面环境使用 [Denial](https://github.com/denialwm/denial)（Flutter + Rust 的 Wayland 合成器），通过 flake 输入 `github:denialwm/denial` 与 `denial.nixosModules.default` 集成；登录管理器仍使用 GDM，在会话菜单中选择 Denial 即可。
+
 ![NixOS](images/nixos_femal.jpg)
 
 ## 文件树
@@ -22,7 +24,7 @@
 │   ├── default.nix
 │   ├── desktop
 │   │   ├── default.nix
-│   │   ├── gnome.nix
+│   │   ├── denial.nix
 │   │   └── sound.nix
 │   ├── extra
 │   │   ├── default.nix

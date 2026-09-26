@@ -2,7 +2,7 @@
 
 {
   imports = [
-    ./gnome.nix
+    ./denial.nix
     ./sound.nix
   ];
 }
