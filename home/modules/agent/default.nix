@@ -1,4 +1,4 @@
-{ ocnfig, lib, pkgs, ...}:
+{ config, lib, pkgs, ...}:
 {
   imports = [
     ./agent.nix
