@@ -34,7 +34,7 @@
       nixosConfigurations."nixos" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         specialArgs = {
-          #  inherit inputs;
+          inherit inputs;
           #  inherit llm-agents;
           #  inputs = inputs;
           llm-agents = llm-agents;
@@ -48,6 +48,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.users.bob = import ./home/home.nix;
+             home-manager.extraSpecialArgs = { inherit inputs; };
           }
         ];
       };
