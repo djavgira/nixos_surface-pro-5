@@ -47,6 +47,10 @@
     syncthing
   ];
 
+
+  nix.settings.max-jobs = 2;  # 限制同时构建的任务数
+  nix.settings.cores = 2;      # 限制每个任务内部的并行度
+
   programs.firefox.enable = true;
 
   system.stateVersion = "26.05";
