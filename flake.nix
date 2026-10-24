@@ -5,12 +5,13 @@
   # 因此在这里重复它的二进制缓存与签名公钥。
   nixConfig = {
     extra-trusted-public-keys = [
+      "fcitx5-vinput.cachix.org-1:XpX3AA6+dDIX4qJhb1QM7sbTwX6/qSlGvW8Z5NK6XdU="  
       "denial.cachix.org-1:wd8YTnvPmugFrtdMJWtR1XdVknR3/g2nmBJkT+vAruo="
     ];
-    extra-substituters = [ "https://fcitx5-vinput.cachix.org" 
-                          "https://denial.cachix.org"
+    extra-substituters = [ 
+      "https://fcitx5-vinput.cachix.org" 
+      "https://denial.cachix.org"
     ];
-    extra-trusted-public-keys = [ "fcitx5-vinput.cachix.org-1:XpX3AA6+dDIX4qJhb1QM7sbTwX6/qSlGvW8Z5NK6XdU=" ];
   };
 
   inputs = {
